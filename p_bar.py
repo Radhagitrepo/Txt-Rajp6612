@@ -97,8 +97,7 @@ async def progress_bar(current, total, reply, start):
             progress_bar = "🟢" * completed_length + "🔴" * remaining_length
             
             try:
-                await reply.edit(f'◀━━❰𝔹𝕠𝕋 ℍ𝕚𝕤𝕥𝕠𝕣𝕐❱━━▶ \n\n┣ ⚡{progress_bar} : {perc}\n┣ 🚀 sᴘᴇᴇᴅ : {sp} \n┣ 📟 ᴘʀᴏᴄᴇssᴇᴅ : {cur}\n┣ 💾 sɪᴢᴇ- ᴇᴛᴀ :  {tot} : {eta} \n\n 🦋𝐑𝗔𝗗𝗛𝐀🦋\n') 
-         #       await 
-reply.edit(f'◀━━❰𝔹𝕠𝕋 ℍ𝕚𝕤𝕥𝕠𝕣𝕐❱━━▶ \n\n┣ ⚡{progress_bar} : {perc}\n┣ 🚀 sᴘᴇᴇᴅ : {sp} \n┣ 📟 ᴘʀᴏᴄᴇssᴇᴅ : {cur}\n┣ 💾 sɪᴢᴇ- ᴇᴛᴀ :  {tot} : {eta} \n\n 🦋𝐑𝗔𝗗𝗛𝐀🦋\n') 
+                await reply.edit(f'◀━━❰𝔹𝕠𝕋 ℍ𝕚𝕤𝕥𝕠𝕣𝕐❱━━▶ \n\n┣ ⚡{progress_bar} : {perc}\n┣ 🚀 sᴘᴇᴇᴅ : {sp} \n┣ 📟 ᴘʀᴏᴄᴇssᴇᴅ : {cur}\n┣ 💾 sɪᴢᴇ- ᴇᴛᴀ :  {tot} : {eta} \n\n [🦋𝐑𝗔𝗗𝗛𝐀🦋](http://t.me/Developer_Radha)\n')  
+    #            await reply.edit(f'◀━━❰𝔹𝕠𝕋 ℍ𝕚𝕤𝕥𝕠𝕣𝕐❱━━▶ \n\n┣ ⚡{progress_bar} : {perc}\n┣ 🚀 sᴘᴇᴇᴅ : {sp} \n┣ 📟 ᴘʀᴏᴄᴇssᴇᴅ : {cur}\n┣ 💾 sɪᴢᴇ- ᴇᴛᴀ :  {tot} : {eta} \n\n [🦋𝐑𝗔𝗗𝗛𝐀🦋](http://t.me/Developer_Radha)\n') 
             except FloodWait as e:
                 time.sleep(e.x)
