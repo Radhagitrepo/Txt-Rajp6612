@@ -177,7 +177,7 @@ async def download_video(url,cmd, name):   #Bot Created by @NtrRazYt
         return os.path.isfile.splitext[0] + "." + "mp4"   #Bot Created by @NtrRazYt
    #Bot Created by @NtrRazYt
 async def send_doc(bot: Client, m: Message,cc,ka,cc1,prog,count,name):   #Bot Created by @NtrRazYt
-    reply = await m.reply_text(f"Uploading - `{name}`")   #Bot Created by @NtrRazYt
+    reply = await m.reply_text(f"🇷𝑨𝑫𝑯𝑨 🇺𝑷𝑳𝑶𝑫𝑰𝑵𝑮... - `{name}`")   #Bot Created by @NtrRazYt
     time.sleep(1)   #Bot Created by @NtrRazYt
     start_time = time.time()   #Bot Created by @NtrRazYt
     await m.reply_document(ka,caption=cc1)   #Bot Created by @NtrRazYt
@@ -191,7 +191,7 @@ async def send_vid(bot: Client, m: Message,cc,filename,thumb,name,prog):   #Bot 
        #Bot Created by @NtrRazYt
     subprocess.run(f'ffmpeg -i "{filename}" -ss 00:01:00 -vframes 1 "{filename}.jpg"', shell=True)   #Bot Created by @NtrRazYt
     await prog.delete (True)   #Bot Created by @NtrRazYt
-    reply = await m.reply_text(f"**Uploading ...** - `{name}`")   #Bot Created by @NtrRazYt
+    reply = await m.reply_text(f"**🇷𝑨𝑫𝑯𝑨 🇺𝑷𝑳𝑶𝑫𝑰𝑵𝑮...** - `{name}`")   #Bot Created by @NtrRazYt
     try:   #Bot Created by @NtrRazYt
         if thumb == "no":   #Bot Created by @NtrRazYt
             thumbnail = f"{filename}.jpg"   #Bot Created by @NtrRazYt
